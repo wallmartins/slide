@@ -15,15 +15,13 @@ img {
 
 .slide-wrapper {
   overflow: hidden;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .slide {
   display: flex;
 }
 
-slide:hover {
+.slide:hover {
   will-change: transform;
 }
 
@@ -32,6 +30,7 @@ slide:hover {
   width: 80vw;
   max-width: 800px;
   margin: 0 20px;
+
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.4);
@@ -40,7 +39,7 @@ slide:hover {
   transition: .4s;
 }
 
-slide li.active {
+.slide li.active {
   opacity: 1;
   transform: scale(1);
 }
